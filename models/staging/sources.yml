@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: northwind_erp
+    schema: northwind
+    tables:
+      - name: public_orders
+      - name: public_products 
+      - name: public_order_details
+      - name: public_suppliers
+      - name: public_shippers
+      - name: public_customers
+      - name: public_employees
+      - name: public_categories
